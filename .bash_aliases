@@ -14,7 +14,7 @@ alias t='touch'
 alias python='python3'
 
 
-alias config='/usr/bin/git --git-dir=/home/jason/.cfg/ --work-tree=/home/jason'
+alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
 alias config_push='config push -u origin master'
 
 # Pandoc One-Liners
