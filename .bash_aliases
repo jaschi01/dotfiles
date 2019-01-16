@@ -19,3 +19,6 @@ alias config_push='config push -u origin master'
 
 # Pandoc One-Liners
 alias mdpdf="pandoc -s -V geometry:margin=1in -V documentclass:article -V fontsize=12pt"
+
+# Jekyll Stuff
+alias jekyllserve="jekyll server --host=0.0.0.0 --drafts"
