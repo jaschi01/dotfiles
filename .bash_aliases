@@ -9,6 +9,10 @@ alias ping='ping -c 5'
 alias www='python -m SimpleHTTPServer 8000'
 alias c='clear'
 
+# Movement 
+alias ..='cd ..'
+alias ...='cd ../..'
+
 # File Management
 alias t='touch'
 alias python='python3'
