@@ -14,3 +14,4 @@ The following packages need to be installed:
 - google-chrome
 - urxvt
 - nitrogen (wallpapers)
+- mutt
