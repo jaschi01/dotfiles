@@ -1,31 +1,25 @@
-# List
+# Listing files
 alias ll='ls -alF'
 alias la='la -A'
 alias l='ls -CF'
 
-# Movement 
+# Directory Movement
 alias ..='cd ..'
 alias ...='cd ../..'
 
 # QOL
 alias e='exit'
 alias ping='ping -c 5'
-alias www='python -m SimpleHTTPServer 8000'
 alias c='clear'
-
-# File Management
 alias t='touch'
+
+# Python
 alias python='python3'
+alias www='python -m SimpleHTTPServer 8000'
 
 # Git Dot files
 alias config='/usr/bin/git --git-dir=$HOME/.cfg/ --work-tree=$HOME'
 alias config_push='config push -u origin master'
-
-# Pandoc One-Liners
-alias mdpdf="pandoc -s -V geometry:margin=1in -V documentclass:article -V fontsize=12pt"
-
-# Jekyll Stuff
-alias jekyllserve="jekyll server --host=0.0.0.0 --drafts"
 
 # Email documents to myself
 alias smail='bash ~/.scripts/email_self.sh'
