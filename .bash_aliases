@@ -25,7 +25,7 @@ alias config_push='config push -u origin master'
 alias smail='bash ~/.scripts/email_self.sh'
 
 # Raspberry Pi SSH shortcuts
-alias tinypi='ssh pi@tinypi.local'
+alias workpi='ssh pi@workpi.local'
 alias homepi='ssh pi@homepi.local'
 
 # This is test for a cron job
