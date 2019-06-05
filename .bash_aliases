@@ -24,5 +24,6 @@ alias config_push='config push -u origin master'
 # Email documents to myself
 alias smail='bash ~/.scripts/email_self.sh'
 
-# Work Raspberry Pi
+# Raspberry Pi SSH shortcuts
 alias tinypi='ssh pi@tinypi.local'
+alias homepi='ssh pi@homepi.local'
