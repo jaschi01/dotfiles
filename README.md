@@ -15,3 +15,5 @@ The following packages need to be installed:
 - urxvt
 - nitrogen (wallpapers)
 - mutt
+- pip
+- jrnl
